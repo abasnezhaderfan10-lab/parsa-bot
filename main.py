@@ -27,5 +27,5 @@ def main():
     print("ربات روشن شد و منتظر اعضای جدید است...")
     app.run_polling()
 
-if name == 'main':
+if __name__ == '__main__':
     main()
